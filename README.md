@@ -11,5 +11,5 @@ You need the folder site/www:
 5. You come into cgi-bin, now identical changes for rephrase.py, associate.py:
 Find the line model = gensim ... (datapath ("muam.nikhost -....... / model.bin"))
 6. Change this muam.nickhost ... (everything up to model.bin) to the path to the model.bin file (lies in cgi-bin). It is especially important if there are Russian letters on the way! And also important - all the slashes should be "/" !!!! In Windows, they are defaulted to the other side, change !!!
-7. You go to the console, go to www, write - python -m http.server —cgi (2 minuses!): 8000
+7. You go to the console, go to www, write - python -m http.server —cgi (2 minuses!) 8000
 8. localhost: 8000 / is waiting for you :)
